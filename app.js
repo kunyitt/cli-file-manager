@@ -75,9 +75,9 @@ app.readFolder = () => {
 
                 let jenisFile;
                 const ext = file.split(".").pop();
-                    if (ext === '.jpg' || ext === '.png') {
+                    if (ext === 'jpg' || ext === 'png') {
                         jenisFile = 'gambar';
-                    } else if (ext === '.txt' || ext === '.md'){
+                    } else if (ext === 'txt' || ext === 'md'){
                         jenisFile = 'teks';
                     } else {
                         jenisFile = 'lainnya';
